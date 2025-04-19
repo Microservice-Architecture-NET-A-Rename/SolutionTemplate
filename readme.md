@@ -62,7 +62,38 @@ Le fichier `nuget.config` est conçu pour **prioriser un flux local de packages*
 
 ## 🚀 Mise en route
 
-TODO
+À la racine du projet, exécutez :
+
+- **Windows**
+  ```sh
+  dotnet new install .\
+  ```
+- **Linux/macOS**
+  ```sh
+  dotnet new install ./
+  ```
+
+### Désinstallation du modèle
+
+- **Windows**
+  ```sh
+  dotnet new uninstall .\
+  ```
+- **Linux/macOS**
+  ```sh
+  dotnet new uninstall ./
+  ```
+
+### Création d'un projet à partir du modèle
+
+- **Afficher l'aide sur le modèle**
+  ```sh
+  dotnet new solutiontemplate -?
+  ```
+- **Générer un projet avec un nom personnalisé**
+  ```sh
+  dotnet new solutiontemplate -n {SOLUTION_NAME}
+  ```
 
 ---
 

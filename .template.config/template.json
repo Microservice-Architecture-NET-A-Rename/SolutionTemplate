@@ -1,0 +1,26 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Fran�ois-Pierre Rousseau",
+  "classifications": [ "Solution", "Web", "API" ],
+  "identity": "Solution.Template",
+  "name": "Solution Template",
+  "shortName": "solutiontemplate",
+  "preferNameDirectory": true,
+  "sourceName": "SolutionTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "exclude": [ "docs/**", ".git/**", ".vs/**" ],
+      "source": "./"
+    }
+  ],
+  "constraints": {
+    "sdk-version": {
+      "type": "sdk-version",
+      "args": "9.0.*"
+    }
+  }
+}
